@@ -42,11 +42,11 @@ function LTrails:EquipTrial(ply, int, col)
     ply.EquippedTrail = data.id    
     for k, v in ipairs(data.bones) do
         if v == "Head" then
-            local trail = util.SpriteTrail(ply, 1, col, false, 15, 1, 4, 1 / ( 15 + 1 ) * 0.5, data.path)
+            local trail = util.SpriteTrail(ply, ply:LookupBone("ValveBiped.Bip01_Head1"), col, false, 15, 1, 4, 1 / ( 15 + 1 ) * 0.5, data.path)
             table.insert(ply.TrailBones, trail)
         end
         if v == "Feet" then
-            local trail = util.SpriteTrail(ply, 0, col, false, 15, 1, 4, 1 / ( 15 + 1 ) * 0.5, data.path)
+            local trail = util.SpriteTrail(ply, ply:LookupBone("ValveBiped.Bip01_Spine"), col, false, 15, 1, 4, 1 / ( 15 + 1 ) * 0.5, data.path)
             table.insert(ply.TrailBones, trail)
         end
         if v == "Chest" then
