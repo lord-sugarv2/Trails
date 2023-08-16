@@ -92,7 +92,7 @@ LTrails.Config.Trails = {
         path = "trails/lol",
         id = "LTrail:LOL",
         bones = {
-            "Feet",
+            "Head",
         },
     },
 }
