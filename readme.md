@@ -3,7 +3,7 @@ Let people purchase and customize thier own trails
 
 Requires https://github.com/TomDotBat/pixel-ui
 
-https://youtu.be/olkDQ2jAkXI
+[https://youtu.be/olkDQ2jAkXI](https://www.youtube.com/watch?v=Af8pVDJzgYM)
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2836933725
 
